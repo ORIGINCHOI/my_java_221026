@@ -17,8 +17,13 @@ public class MainClass05 {
 	public static void main(String[] args) {
 		//클래스 설계 후 여기에서 테스트 해 보세요.
 		Rect rect=new Rect();
-		rect.width=3;
-		rect.height=5;
+		rect.width=10;
+		rect.height=20;
 		rect.showArea();
+		
+		Rect r2 = new Rect();
+		r2.width=5;
+		r2.height=10;
+		r2.showArea();
 	}
 }
